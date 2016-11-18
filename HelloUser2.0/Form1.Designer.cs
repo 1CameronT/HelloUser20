@@ -33,6 +33,8 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblDisplay2 = new System.Windows.Forms.Label();
             this.txtAge = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnDisplay
@@ -47,7 +49,7 @@
             // 
             // lblDisplay
             // 
-            this.lblDisplay.Location = new System.Drawing.Point(12, 182);
+            this.lblDisplay.Location = new System.Drawing.Point(82, 81);
             this.lblDisplay.Name = "lblDisplay";
             this.lblDisplay.Size = new System.Drawing.Size(100, 23);
             this.lblDisplay.TabIndex = 1;
@@ -61,23 +63,42 @@
             // 
             // lblDisplay2
             // 
-            this.lblDisplay2.Location = new System.Drawing.Point(126, 182);
+            this.lblDisplay2.Location = new System.Drawing.Point(63, 165);
             this.lblDisplay2.Name = "lblDisplay2";
-            this.lblDisplay2.Size = new System.Drawing.Size(100, 23);
+            this.lblDisplay2.Size = new System.Drawing.Size(161, 44);
             this.lblDisplay2.TabIndex = 3;
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(82, 116);
+            this.txtAge.Location = new System.Drawing.Point(82, 142);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(100, 20);
             this.txtAge.TabIndex = 4;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(79, 42);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(118, 13);
+            this.lblName.TabIndex = 5;
+            this.lblName.Text = "Please enter your name";
+            // 
+            // lblAge
+            // 
+            this.lblAge.Location = new System.Drawing.Point(95, 116);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(87, 23);
+            this.lblAge.TabIndex = 6;
+            this.lblAge.Text = "Enter your age";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblAge);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.lblDisplay2);
             this.Controls.Add(this.txtName);
@@ -97,6 +118,8 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblDisplay2;
         private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblAge;
     }
 }
 
